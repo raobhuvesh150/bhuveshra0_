@@ -13,6 +13,7 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "sass": "^1.56.1",
+    "three": "^0.147.0",
     "web-vitals": "^2.1.4"
   },
   "homepage": "http://raobhuvesh150.github.io/bhuveshra0_",

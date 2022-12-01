@@ -1,37 +1,53 @@
 #container {
-    // background-color: rgb(220, 220, 220);
-    background-color: rgb(220, 220, 220);
-    height: 900px;
-    width: 100%;
+	// background-color: rgb(220, 220, 220);
+	background-color: rgb(220, 220, 220);
+	height: 900px;
+	width: 100%;
+}
+
+@media screen and (max-width:1024px) {
+	#container{
+		height: 700px !important;
+	}
+	
 }
 
 #summary {
-    color: rgb(166, 209, 230);
-    // font-size: 62px;
+	color: rgb(166, 209, 230);
+	// font-size: 62px;
 }
 
 #nametag {
-    color: rgb(217, 122, 174);
-    letter-spacing: 15px;
+	color: rgb(217, 122, 174);
+	letter-spacing: 15px;
 }
 
-@media screen and (min-width: 1025px) {
-    #letterGapFE {
-        line-height: 150px;
-    }
+// @media screen and (max-width:756px) {
+// 	#nametag {
+// 		border-left: 2px solid linear-gradient(to right, rgb(102, 204, 255), rgb(255, 153, 204));
+// 		--bs-border-opacity: 1;
+// 	}
 
-    #nametag {
-        line-height: 150px;
-    }
+// }
+
+@media screen and (min-width: 1025px) {
+	#letterGapFE {
+		line-height: 150px;
+	}
+
+	#nametag {
+		line-height: 150px;
+	}
 }
 
 #letterGap {
-    letter-spacing: 15px;
+	letter-spacing: 15px;
 }
 
 #letterGapFE {
-    letter-spacing: 9.5px;
+	letter-spacing: 9.5px;
 }
+
 
 
 
@@ -42,104 +58,104 @@
 
 
 #btnAnchor {
-    position: relative;
-    padding: 30px 60px;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
-    color: #999;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font: 700 30px consolas;
-    overflow: hidden;
+	position: relative;
+	padding: 30px 60px;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+	color: #999;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font: 700 30px consolas;
+	overflow: hidden;
 }
 
 #btnAnchor .btnSpan:nth-child(1) {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(to right, #171618, rgb(217, 122, 174));
-    animation: animate1 2s linear infinite;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 3px;
+	background: linear-gradient(to right, #171618, rgb(217, 122, 174));
+	animation: animate1 2s linear infinite;
 }
 
 @keyframes animate1 {
-    0% {
-        transform: translateX(-100%);
-    }
+	0% {
+		transform: translateX(-100%);
+	}
 
-    100% {
-        transform: translateX(100%);
-    }
+	100% {
+		transform: translateX(100%);
+	}
 }
 
 #btnAnchor .btnSpan:nth-child(2) {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 3px;
-    background: linear-gradient(to bottom, #171618, rgb(217, 122, 174));
-    animation: animate2 2s linear infinite;
-    animation-delay: 1s;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 3px;
+	background: linear-gradient(to bottom, #171618, rgb(217, 122, 174));
+	animation: animate2 2s linear infinite;
+	animation-delay: 1s;
 }
 
 @keyframes animate2 {
-    0% {
-        transform: translateY(-100%);
-    }
+	0% {
+		transform: translateY(-100%);
+	}
 
-    100% {
-        transform: translateY(100%);
-    }
+	100% {
+		transform: translateY(100%);
+	}
 }
 
 #btnAnchor .btnSpan:nth-child(3) {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(to left, #171618, rgb(217, 122, 174));
-    animation: animate3 2s linear infinite;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 3px;
+	background: linear-gradient(to left, #171618, rgb(217, 122, 174));
+	animation: animate3 2s linear infinite;
 }
 
 @keyframes animate3 {
-    0% {
-        transform: translateX(100%);
-    }
+	0% {
+		transform: translateX(100%);
+	}
 
-    100% {
-        transform: translateX(-100%);
-    }
+	100% {
+		transform: translateX(-100%);
+	}
 }
 
 #btnAnchor .btnSpan:nth-child(4) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 3px;
-    background: linear-gradient(to top, #171618, rgb(217, 122, 174));
-    animation: animate4 2s linear infinite;
-    animation-delay: 1s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 3px;
+	background: linear-gradient(to top, #171618, rgb(217, 122, 174));
+	animation: animate4 2s linear infinite;
+	animation-delay: 1s;
 }
 
 @keyframes animate4 {
-    0% {
-        transform: translateY(100%);
-    }
+	0% {
+		transform: translateY(100%);
+	}
 
-    100% {
-        transform: translateY(-100%);
-    }
+	100% {
+		transform: translateY(-100%);
+	}
 }
 
 
 
 
 #btnholder {
-    margin-top: 200px;
+	margin-top: 200px;
 }
 
 
@@ -165,7 +181,7 @@
 
 .containerbird {
 	z-index: 1;
-    width: 99%;
+	width: 99%;
 	position: absolute;
 	overflow: hidden;
 	display: flex;
@@ -186,26 +202,26 @@
 	width: 88px;
 	height: 125px;
 	will-change: background-position;
-	
+
 	animation-name: fly-cycle;
 	animation-timing-function: steps(10);
 	animation-iteration-count: infinite;
 
 	&one {
 		animation-duration: 1s;
-		animation-delay: -0.5s;		
+		animation-delay: -0.5s;
 	}
-	
+
 	&two {
 		animation-duration: 0.9s;
 		animation-delay: -0.75s;
 	}
-	
+
 	&three {
 		animation-duration: 1.25s;
 		animation-delay: -0.25s;
 	}
-	
+
 	&four {
 		animation-duration: 1.1s;
 		animation-delay: -0.5s;
@@ -219,109 +235,109 @@
 	left: -10%;
 	transform: scale(0) translateX(-10vw);
 	will-change: transform;
-	
+
 	animation-name: fly-right-one;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	
+
 	&one {
 		animation-duration: 15s;
 		animation-delay: 0;
 	}
-	
+
 	&two {
 		animation-duration: 16s;
 		animation-delay: 1s;
 	}
-	
+
 	&three {
 		animation-duration: 14.6s;
 		animation-delay: 9.5s;
 	}
-	
+
 	&four {
 		animation-duration: 16s;
 		animation-delay: 10.25s;
 	}
-	
+
 }
 
 @keyframes fly-cycle {
-	
+
 	100% {
 		background-position: -900px 0;
 	}
-	
+
 }
 
 @keyframes fly-right-one {
-	
+
 	0% {
 		transform: scale(0.3) translateX(-10vw);
 	}
-	
+
 	10% {
 		transform: translateY(2vh) translateX(10vw) scale(0.4);
 	}
-	
+
 	20% {
 		transform: translateY(0vh) translateX(30vw) scale(0.5);
 	}
-	
+
 	30% {
 		transform: translateY(4vh) translateX(50vw) scale(0.6);
 	}
-	
+
 	40% {
 		transform: translateY(2vh) translateX(70vw) scale(0.6);
 	}
-	
+
 	50% {
 		transform: translateY(0vh) translateX(90vw) scale(0.6);
 	}
-	
+
 	60% {
 		transform: translateY(0vh) translateX(110vw) scale(0.6);
 	}
-	
+
 	100% {
 		transform: translateY(0vh) translateX(110vw) scale(0.6);
 	}
-	
+
 }
 
 @keyframes fly-right-two {
-	
+
 	0% {
 		transform: translateY(-2vh) translateX(-10vw) scale(0.5);
 	}
-	
+
 	10% {
 		transform: translateY(0vh) translateX(10vw) scale(0.4);
 	}
-	
+
 	20% {
 		transform: translateY(-4vh) translateX(30vw) scale(0.6);
 	}
-	
+
 	30% {
 		transform: translateY(1vh) translateX(50vw) scale(0.45);
 	}
-	
+
 	40% {
 		transform: translateY(-2.5vh) translateX(70vw) scale(0.5);
 	}
-	
+
 	50% {
 		transform: translateY(0vh) translateX(90vw) scale(0.45);
 	}
-	
+
 	51% {
 		transform: translateY(0vh) translateX(110vw) scale(0.45);
 	}
-	
+
 	100% {
 		transform: translateY(0vh) translateX(110vw) scale(0.45);
 	}
-	
+
 }
