@@ -5,11 +5,11 @@
 	// width: 100%;
 }
 
-@media screen and (max-width:1024px) {
-	#container{
+@media screen and (max-width:767px) {
+	#container {
 		height: 700px !important;
 	}
-	
+
 }
 
 #summary {
@@ -30,7 +30,7 @@
 
 // }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 768px) {
 	#letterGapFE {
 		line-height: 150px;
 	}
@@ -181,9 +181,9 @@
 
 .containerbird {
 	z-index: 1;
-	top:100px;
-	right:0px;
-	left:0px;
+	top: 100px;
+	right: 0px;
+	left: 0px;
 	position: absolute;
 	overflow: hidden;
 	display: flex;

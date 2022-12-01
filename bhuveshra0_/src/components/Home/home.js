@@ -38,7 +38,7 @@ function body() {
           <h3 className='shadow-lg d-inline-block display-4  m-auto text-start ' id={styles.nametag}>BHUVESH RAO </h3>
           <h1 className=" shadow-lg display-1" id={styles.letterGapFE}>FRONTEND DEVELOPER</h1>
 
-          <div className=' shadow-lg d-inline-block'>
+          <div className=' shadow-lg d-block'>
             <div className='d-flex justify-content-center justify-content-md-start align-items-center' id={styles.btnholder}>
               <a className='' id={styles.btnAnchor} href="/bhuveshra0_" target="_blank">
                 <span className={styles.btnSpan}> </span>

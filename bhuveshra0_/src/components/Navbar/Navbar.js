@@ -1,56 +1,76 @@
-import React from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import styles from './navbar.module.scss'
+import Home from './dockIcon/home.svg'
+import About from './dockIcon/about.svg' 
+import Contact from './dockIcon/contact.svg' 
+import Projects from './dockIcon/project.svg' 
+import Resume from './dockIcon/resume.svg' 
+import Skills from './dockIcon/skills.svg' 
 
 
 function Navbar() {
 
-    
 
 
 
-    
+
     return (
         <div className='d-flex justify-content-center mt-5'>
-            <nav nav className={styles.navigation} id={styles.navigation} >
+            <nav className={styles.navigation} id={styles.navigation}>
 
-                <button type="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><title>Home</title><g fill="none"><path opacity=".4" d="M20.04 6.82l-5.76-4.03c-1.57-1.1-3.98-1.04-5.49.13L3.78 6.83c-1 .78-1.79 2.38-1.79 3.64v6.9c0 2.55 2.07 4.63 4.62 4.63h10.78c2.55 0 4.62-2.07 4.62-4.62V10.6c0-1.35-.87-3.01-1.97-3.78z" fill="#292D32"></path><path d="M12 18.75c-.41 0-.75-.34-.75-.75v-3c0-.41.34-.75.75-.75s.75.34.75.75v3c0 .41-.34.75-.75.75z" fill="#292D32"></path></g></svg>
-                </button>
+                <img style={{width:'50px' , height:'50px'}} onMouseMove={(e) => {
+                    document.getElementById(`${e.currentTarget.id}`).style.width = "65px"; document.getElementById(`${e.currentTarget.id}`).style.height = "65px";
+                }} onMouseLeave={(e) => {
+                    document.getElementById(`${e.currentTarget.id}`).style.width = "40px";
+                    document.getElementById(`${e.currentTarget.id}`).style.height = "40px";
+                }} id='btndock' type="" src={Home}>
+                </ img>
 
-                {/* <hr noshade="noshade" style="border: none;" /> */}
-
-                <button type="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><title>Home</title><g fill="none"><path opacity=".4" d="M20.04 6.82l-5.76-4.03c-1.57-1.1-3.98-1.04-5.49.13L3.78 6.83c-1 .78-1.79 2.38-1.79 3.64v6.9c0 2.55 2.07 4.63 4.62 4.63h10.78c2.55 0 4.62-2.07 4.62-4.62V10.6c0-1.35-.87-3.01-1.97-3.78z" fill="#292D32"></path><path d="M12 18.75c-.41 0-.75-.34-.75-.75v-3c0-.41.34-.75.75-.75s.75.34.75.75v3c0 .41-.34.75-.75.75z" fill="#292D32"></path></g></svg>
-                </button>
-
-
-                {/* <hr noshade="noshade" style="border: none;" /> */}
-
-                <button type="button" >
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><title>Home</title><g fill="none"><path opacity=".4" d="M20.04 6.82l-5.76-4.03c-1.57-1.1-3.98-1.04-5.49.13L3.78 6.83c-1 .78-1.79 2.38-1.79 3.64v6.9c0 2.55 2.07 4.63 4.62 4.63h10.78c2.55 0 4.62-2.07 4.62-4.62V10.6c0-1.35-.87-3.01-1.97-3.78z" fill="#292D32"></path><path d="M12 18.75c-.41 0-.75-.34-.75-.75v-3c0-.41.34-.75.75-.75s.75.34.75.75v3c0 .41-.34.75-.75.75z" fill="#292D32"></path></g></svg>
-                </button>
-
-                <button type="button" >
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><title>Home</title><g fill="none"><path opacity=".4" d="M20.04 6.82l-5.76-4.03c-1.57-1.1-3.98-1.04-5.49.13L3.78 6.83c-1 .78-1.79 2.38-1.79 3.64v6.9c0 2.55 2.07 4.63 4.62 4.63h10.78c2.55 0 4.62-2.07 4.62-4.62V10.6c0-1.35-.87-3.01-1.97-3.78z" fill="#292D32"></path><path d="M12 18.75c-.41 0-.75-.34-.75-.75v-3c0-.41.34-.75.75-.75s.75.34.75.75v3c0 .41-.34.75-.75.75z" fill="#292D32"></path></g></svg>
-                </button>
-
-                <button type="button" >
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><title>Home</title><g fill="none"><path opacity=".4" d="M20.04 6.82l-5.76-4.03c-1.57-1.1-3.98-1.04-5.49.13L3.78 6.83c-1 .78-1.79 2.38-1.79 3.64v6.9c0 2.55 2.07 4.63 4.62 4.63h10.78c2.55 0 4.62-2.07 4.62-4.62V10.6c0-1.35-.87-3.01-1.97-3.78z" fill="#292D32"></path><path d="M12 18.75c-.41 0-.75-.34-.75-.75v-3c0-.41.34-.75.75-.75s.75.34.75.75v3c0 .41-.34.75-.75.75z" fill="#292D32"></path></g></svg>
-                </button>
-
-                <button type="button" >
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><title>Home</title><g fill="none"><path opacity=".4" d="M20.04 6.82l-5.76-4.03c-1.57-1.1-3.98-1.04-5.49.13L3.78 6.83c-1 .78-1.79 2.38-1.79 3.64v6.9c0 2.55 2.07 4.63 4.62 4.63h10.78c2.55 0 4.62-2.07 4.62-4.62V10.6c0-1.35-.87-3.01-1.97-3.78z" fill="#292D32"></path><path d="M12 18.75c-.41 0-.75-.34-.75-.75v-3c0-.41.34-.75.75-.75s.75.34.75.75v3c0 .41-.34.75-.75.75z" fill="#292D32"></path></g></svg>
-                </button>
-
-                <button type="button" >
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><title>Home</title><g fill="none"><path opacity=".4" d="M20.04 6.82l-5.76-4.03c-1.57-1.1-3.98-1.04-5.49.13L3.78 6.83c-1 .78-1.79 2.38-1.79 3.64v6.9c0 2.55 2.07 4.63 4.62 4.63h10.78c2.55 0 4.62-2.07 4.62-4.62V10.6c0-1.35-.87-3.01-1.97-3.78z" fill="#292D32"></path><path d="M12 18.75c-.41 0-.75-.34-.75-.75v-3c0-.41.34-.75.75-.75s.75.34.75.75v3c0 .41-.34.75-.75.75z" fill="#292D32"></path></g></svg>
-                </button>
-
-                <button type="button" >
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><title>Home</title><g fill="none"><path opacity=".4" d="M20.04 6.82l-5.76-4.03c-1.57-1.1-3.98-1.04-5.49.13L3.78 6.83c-1 .78-1.79 2.38-1.79 3.64v6.9c0 2.55 2.07 4.63 4.62 4.63h10.78c2.55 0 4.62-2.07 4.62-4.62V10.6c0-1.35-.87-3.01-1.97-3.78z" fill="#292D32"></path><path d="M12 18.75c-.41 0-.75-.34-.75-.75v-3c0-.41.34-.75.75-.75s.75.34.75.75v3c0 .41-.34.75-.75.75z" fill="#292D32"></path></g></svg>
-                </button>
+                <img style={{width:'50px' , height:'50px'}} onMouseMove={(e) => {
+                    document.getElementById(`${e.currentTarget.id}`).style.width = "65px";
+                    document.getElementById(`${e.currentTarget.id}`).style.height = "65px";
+                }} onMouseLeave={(e) => {
+                    document.getElementById(`${e.currentTarget.id}`).style.width = "40px";
+                    document.getElementById(`${e.currentTarget.id}`).style.height = "40px";
+                }} id='btndock1' type="button" src={About}>
+                </ img>
 
 
+                <img style={{width:'50px' , height:'50px'}} onMouseMove={(e) => {
+                    document.getElementById(`${e.currentTarget.id}`).style.width = "65px";
+                    document.getElementById(`${e.currentTarget.id}`).style.height = "65px";
+                }} onMouseLeave={(e) => {
+                    document.getElementById(`${e.currentTarget.id}`).style.width = "50px";
+                    document.getElementById(`${e.currentTarget.id}`).style.height = "50px";
+                }} id='btndock2' type="button" src={Resume}>
+                </ img>
+
+
+                <img style={{width:'50px' , height:'50px'}} onMouseMove={(e) => {
+                    document.getElementById(`${e.currentTarget.id}`).style.width = "65px";
+                    document.getElementById(`${e.currentTarget.id}`).style.height = "65px";
+                }} onMouseLeave={(e) => {
+                    document.getElementById(`${e.currentTarget.id}`).style.width = "40px";
+                    document.getElementById(`${e.currentTarget.id}`).style.height = "40px";
+                }} id='btndock3' type="button" src={Skills}>
+                </ img>
+
+                <img style={{width:'50px' , height:'50px'}} onMouseMove={(e) => {
+                    document.getElementById(`${e.currentTarget.id}`).style.width = "65px";
+                    document.getElementById(`${e.currentTarget.id}`).style.height = "65px";
+                }} onMouseLeave={(e) => {
+                    document.getElementById(`${e.currentTarget.id}`).style.width = "40px";
+                    document.getElementById(`${e.currentTarget.id}`).style.height = "40px";
+                }} id='btndock4' type="button" src={Projects}>
+                </ img>
+                <img style={{width:'50px' , height:'50px'}} onMouseMove={(e) => {
+                    document.getElementById(`${e.currentTarget.id}`).style.width = "65px";
+                    document.getElementById(`${e.currentTarget.id}`).style.height = "65px";
+                }} onMouseLeave={(e) => {
+                    document.getElementById(`${e.currentTarget.id}`).style.width = "40px";
+                    document.getElementById(`${e.currentTarget.id}`).style.height = "40px";
+                }} id='btndock5' type="button" src={Contact}>
+                </ img>
             </nav>
 
         </div>
