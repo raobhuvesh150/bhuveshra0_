@@ -4,7 +4,7 @@ import styles from '../Home/home.module.scss'
 
 function body() {
   return (
-    <div id={styles.container} className="p-0 p-md-5">
+    <div id={styles.container} className="p-2 p-md-5">
       <div className="container m-auto">
         <h4 className='display-5' id={styles.letterGap}>HELLO !</h4>
         <h3 className='d-inline-block display-6' id={styles.letterGap}>I  AM &nbsp;</h3>
@@ -12,7 +12,7 @@ function body() {
         <h1 className="display-1" id={styles.letterGapFE}>FRONTEND DEVELOPER</h1>
 
         <div className='d-flex justify-content-center justify-content-md-start align-items-center' id={styles.btnholder}>
-          <a className='' id={styles.btnAnchor} href="/" target="_blank">
+          <a className='' id={styles.btnAnchor} href="/bhuveshra0_" target="_blank">
             <span className={styles.btnSpan}> </span>
             <span className={styles.btnSpan}> </span>
             <span className={styles.btnSpan}> </span>
