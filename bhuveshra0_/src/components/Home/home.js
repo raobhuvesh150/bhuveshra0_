@@ -32,13 +32,13 @@ function body() {
 
       <div id={styles.container} className="p-2 p-md-5">
 
-        <div className="container m-auto">
-          <h4 className=' shadow-lg display-5' id={styles.letterGap}>HELLO !</h4>
-          <h3 className=' shadow-lg d-inline-block display-6' id={styles.letterGap}>I  AM &nbsp;</h3>
+        <div className="m-auto">
+          <h4 className='shadow-lg display-5' id={styles.letterGap}>HELLO !</h4>
+          <h3 className='shadow-lg d-inline-block display-6' id={styles.letterGap}>I  AM &nbsp;</h3>
           <h3 className='shadow-lg d-inline-block display-4  m-auto text-start ' id={styles.nametag}>BHUVESH RAO </h3>
-          <h1 className=" shadow-lg display-1" id={styles.letterGapFE}>FRONTEND DEVELOPER</h1>
+          <h1 className="shadow-lg display-1" id={styles.letterGapFE}>FRONTEND DEVELOPER</h1>
 
-          <div className=' shadow-lg d-inline-block'>
+          <div className='d-block'>
             <div className='d-flex justify-content-center justify-content-md-start align-items-center' id={styles.btnholder}>
               <a className='' id={styles.btnAnchor} href="/bhuveshra0_" target="_blank">
                 <span className={styles.btnSpan}> </span>
