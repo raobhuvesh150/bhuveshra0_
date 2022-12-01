@@ -32,7 +32,7 @@ function body() {
 
       <div id={styles.container} className="p-2 p-md-5">
 
-        <div className="container m-auto">
+        <div className=" m-auto">
           <h4 className=' shadow-lg display-5' id={styles.letterGap}>HELLO !</h4>
           <h3 className=' shadow-lg d-inline-block display-6' id={styles.letterGap}>I  AM &nbsp;</h3>
           <h3 className='shadow-lg d-inline-block display-4  m-auto text-start ' id={styles.nametag}>BHUVESH RAO </h3>

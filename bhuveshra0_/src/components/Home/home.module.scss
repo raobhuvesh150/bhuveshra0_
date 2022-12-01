@@ -2,7 +2,7 @@
 	// background-color: rgb(220, 220, 220);
 	background-color: rgb(220, 220, 220);
 	height: 900px;
-	width: 100%;
+	// width: 100%;
 }
 
 @media screen and (max-width:1024px) {
@@ -181,7 +181,9 @@
 
 .containerbird {
 	z-index: 1;
-	width: 99%;
+	top:100px;
+	right:0px;
+	left:0px;
 	position: absolute;
 	overflow: hidden;
 	display: flex;
