@@ -8,7 +8,7 @@ import Resume from './dockIcon/resume.svg'
 import Skills from './dockIcon/skills.svg' 
 
 
-function Navbar() {
+function Navbar(props) {
 
 
 
@@ -18,7 +18,7 @@ function Navbar() {
         <div className='d-flex justify-content-center'>
             <nav className={styles.navigation} id={styles.navigation}>
 
-                <img  style={{width:'50px' , height:'50px'}} onMouseMove={(e) => {
+                <img onClick={()=>props.HandelClick(0)}  style={{width:'50px' , height:'50px'}} onMouseMove={(e) => {
                     document.getElementById(`${e.currentTarget.id}`).style.width = "65px"; document.getElementById(`${e.currentTarget.id}`).style.height = "65px";
                 }} onMouseLeave={(e) => {
                     document.getElementById(`${e.currentTarget.id}`).style.width = "50px";
@@ -26,7 +26,7 @@ function Navbar() {
                 }} id='btndock' type="" src={Home}>
                 </ img>
 
-                <img  style={{width:'50px' , height:'50px'}} onMouseMove={(e) => {
+                <img onClick={()=>props.HandelClick(1000)} style={{width:'50px' , height:'50px'}} onMouseMove={(e) => {
                     document.getElementById(`${e.currentTarget.id}`).style.width = "65px";
                     document.getElementById(`${e.currentTarget.id}`).style.height = "65px";
                 }} onMouseLeave={(e) => {

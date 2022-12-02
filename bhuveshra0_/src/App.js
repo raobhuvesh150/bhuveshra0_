@@ -1,21 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header/Header';
 import Home from './components/Home/home';
-import Design from './components/Design/Design'
 import Navbar from './components/Navbar/Navbar';
-import Navbar2 from './components/Navbar/Navbar2';
 import About from './components/About/About'
-
+import {useRef, useState} from 'react';
 
 function App() {
+
+    const HandelClick = (y)=>{
+      window.scroll({left:0 , top:y ,  behavior: 'smooth'})
+    }
+
   return (
     <>
       <div className="">
-        {/* <Header /> */}
         <Home />
         <About />
-        <Navbar />
+        <Navbar HandelClick={HandelClick}  />
       </div>
     </>
   );

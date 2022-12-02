@@ -1,37 +1,47 @@
-#container{
-    height: 700px;
+#container {
+    height: 850px;
     background-color: rgb(95, 99, 99);
 }
 
 
-#designContainer{
-    width: 75vw;
+#designContainer {
+    width: 85vw;
 }
 
-#borderLeft{
+@media screen and (max-width:500px) {
+    #designContainer {
+        width: 100vw;
+    }
+
+}
+
+#borderLeft {
     position: absolute;
     border-left: 50px solid rgb(224, 190, 54);
     top: 50%;
     right: 99.90%;
     bottom: -49px;
 }
-#borderRight{
+
+#borderRight {
     position: absolute;
     border-right: 50px solid rgb(1, 99, 164);
     top: -50px;
     left: 100%;
     bottom: 50%;
 }
-#borderTop{
+
+#borderTop {
     position: absolute;
     border-top: 50px solid rgb(1, 99, 164);
     bottom: 100%;
     left: 50%;
     right: -50px;
 }
-#borderBottom{
+
+#borderBottom {
     position: absolute;
-    border-bottom: 50px solid  rgb(224, 190, 54);
+    border-bottom: 50px solid rgb(224, 190, 54);
     top: 99.8%;
     left: -49px;
     right: 50%;
