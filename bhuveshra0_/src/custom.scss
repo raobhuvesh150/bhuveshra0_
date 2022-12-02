@@ -9,6 +9,8 @@ $dark: #343a40;
 
 //custom color to be mapped
 $accent : rgb(69, 208, 221);
+$aboutTheme2 : rgb(220, 220, 220);
+$homeTheme : rgb(220, 220, 220);
 
 // this is used to map colors. change accordingly.
 $theme-colors: (
@@ -22,6 +24,8 @@ $theme-colors: (
   dark: $dark,
 // add any additional color below
   accent: $accent,
+  aboutTheme2: $aboutTheme2,
+  homeTheme: $homeTheme,
 // now bg-accent,btn-accent,etc.. can be called
 );
 

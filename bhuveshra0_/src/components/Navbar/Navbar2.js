@@ -13,7 +13,7 @@ function Navbar2() {
     // const[size , setSize] = useState(800)
     return (
         <div className=''>
-            <Dock width={600} magnification={1} magnifyDirection="center">
+            <Dock width={1000} magnification={1.2} magnifyDirection="center">
                 {[Img1,Img2,Img3,Img4,Img5,Img6,Img1,Img2,Img3,Img4,Img5,Img6 ,Img1,Img2,Img3,Img4,Img5,Img6].map((item, index) => (
                     <Dock.Item key={index} onClick={() => console.log(item)}>
                         <img className='w-75' src={`${item}`} />

@@ -15,23 +15,23 @@ function Navbar() {
 
 
     return (
-        <div className='d-flex justify-content-center mt-5'>
+        <div className='d-flex justify-content-center'>
             <nav className={styles.navigation} id={styles.navigation}>
 
-                <img style={{width:'50px' , height:'50px'}} onMouseMove={(e) => {
+                <img  style={{width:'50px' , height:'50px'}} onMouseMove={(e) => {
                     document.getElementById(`${e.currentTarget.id}`).style.width = "65px"; document.getElementById(`${e.currentTarget.id}`).style.height = "65px";
                 }} onMouseLeave={(e) => {
-                    document.getElementById(`${e.currentTarget.id}`).style.width = "40px";
-                    document.getElementById(`${e.currentTarget.id}`).style.height = "40px";
+                    document.getElementById(`${e.currentTarget.id}`).style.width = "50px";
+                    document.getElementById(`${e.currentTarget.id}`).style.height = "50px";
                 }} id='btndock' type="" src={Home}>
                 </ img>
 
-                <img style={{width:'50px' , height:'50px'}} onMouseMove={(e) => {
+                <img  style={{width:'50px' , height:'50px'}} onMouseMove={(e) => {
                     document.getElementById(`${e.currentTarget.id}`).style.width = "65px";
                     document.getElementById(`${e.currentTarget.id}`).style.height = "65px";
                 }} onMouseLeave={(e) => {
-                    document.getElementById(`${e.currentTarget.id}`).style.width = "40px";
-                    document.getElementById(`${e.currentTarget.id}`).style.height = "40px";
+                    document.getElementById(`${e.currentTarget.id}`).style.width = "50px";
+                    document.getElementById(`${e.currentTarget.id}`).style.height = "50px";
                 }} id='btndock1' type="button" src={About}>
                 </ img>
 
@@ -50,8 +50,8 @@ function Navbar() {
                     document.getElementById(`${e.currentTarget.id}`).style.width = "65px";
                     document.getElementById(`${e.currentTarget.id}`).style.height = "65px";
                 }} onMouseLeave={(e) => {
-                    document.getElementById(`${e.currentTarget.id}`).style.width = "40px";
-                    document.getElementById(`${e.currentTarget.id}`).style.height = "40px";
+                    document.getElementById(`${e.currentTarget.id}`).style.width = "50px";
+                    document.getElementById(`${e.currentTarget.id}`).style.height = "50px";
                 }} id='btndock3' type="button" src={Skills}>
                 </ img>
 
@@ -59,16 +59,16 @@ function Navbar() {
                     document.getElementById(`${e.currentTarget.id}`).style.width = "65px";
                     document.getElementById(`${e.currentTarget.id}`).style.height = "65px";
                 }} onMouseLeave={(e) => {
-                    document.getElementById(`${e.currentTarget.id}`).style.width = "40px";
-                    document.getElementById(`${e.currentTarget.id}`).style.height = "40px";
+                    document.getElementById(`${e.currentTarget.id}`).style.width = "50px";
+                    document.getElementById(`${e.currentTarget.id}`).style.height = "50px";
                 }} id='btndock4' type="button" src={Projects}>
                 </ img>
                 <img style={{width:'50px' , height:'50px'}} onMouseMove={(e) => {
                     document.getElementById(`${e.currentTarget.id}`).style.width = "65px";
                     document.getElementById(`${e.currentTarget.id}`).style.height = "65px";
                 }} onMouseLeave={(e) => {
-                    document.getElementById(`${e.currentTarget.id}`).style.width = "40px";
-                    document.getElementById(`${e.currentTarget.id}`).style.height = "40px";
+                    document.getElementById(`${e.currentTarget.id}`).style.width = "50px";
+                    document.getElementById(`${e.currentTarget.id}`).style.height = "50px";
                 }} id='btndock5' type="button" src={Contact}>
                 </ img>
             </nav>

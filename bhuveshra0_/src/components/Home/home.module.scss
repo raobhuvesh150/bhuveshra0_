@@ -1,8 +1,6 @@
 #container {
 	// background-color: rgb(220, 220, 220);
-	background-color: rgb(220, 220, 220);
 	height: 900px;
-	// width: 100%;
 }
 
 @media screen and (max-width:767px) {
@@ -14,21 +12,12 @@
 
 #summary {
 	color: rgb(166, 209, 230);
-	// font-size: 62px;
 }
 
 #nametag {
 	color: rgb(217, 122, 174);
 	letter-spacing: 15px;
 }
-
-// @media screen and (max-width:756px) {
-// 	#nametag {
-// 		border-left: 2px solid linear-gradient(to right, rgb(102, 204, 255), rgb(255, 153, 204));
-// 		--bs-border-opacity: 1;
-// 	}
-
-// }
 
 @media screen and (min-width: 768px) {
 	#letterGapFE {
@@ -54,7 +43,7 @@
 
 
 
-// button css
+//Animated button css
 
 
 #btnAnchor {
@@ -151,25 +140,12 @@
 	}
 }
 
-
-
-
 #btnholder {
 	margin-top: 200px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-// bird css
+//  bird css 
 
 
 *,
@@ -177,8 +153,6 @@
 *::after {
 	box-sizing: border-box;
 }
-
-
 .containerbird {
 	z-index: 1;
 	top: 100px;
@@ -189,15 +163,12 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	// min-height: 100vh;
 	min-height: 35rem;
-	// background-image: linear-gradient(to bottom,  rgba(255,168,76,0.6) 0%,rgba(255,123,13,0.6) 100%), url('https://images.unsplash.com/photo-1446824505046-e43605ffb17f');
 	background-blend-mode: soft-light;
 	background-size: cover;
 	background-position: center center;
 	padding: 2rem;
 }
-
 .bird {
 	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg);
 	background-size: auto 100%;
@@ -230,7 +201,6 @@
 	}
 
 }
-
 .birdcontainer {
 	position: absolute;
 	top: 20%;
@@ -263,7 +233,6 @@
 	}
 
 }
-
 @keyframes fly-cycle {
 
 	100% {
@@ -271,7 +240,6 @@
 	}
 
 }
-
 @keyframes fly-right-one {
 
 	0% {
@@ -307,7 +275,6 @@
 	}
 
 }
-
 @keyframes fly-right-two {
 
 	0% {

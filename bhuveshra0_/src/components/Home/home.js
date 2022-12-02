@@ -30,7 +30,7 @@ function body() {
 
 
 
-      <div id={styles.container} className="p-2 p-md-5">
+      <div id={styles.container} className="p-2 p-md-5 bg-homeTheme">
 
         <div className=" m-auto">
           <h4 className=' shadow-lg display-5' id={styles.letterGap}>HELLO !</h4>
