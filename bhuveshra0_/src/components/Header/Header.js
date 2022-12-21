@@ -27,35 +27,35 @@ function Header() {
 
 
 
-            <nav className="p-3 navbar navbar-expand-lg navbar-light bg-light">
-                <h1 href="/" id={styles.button}>Bhuvi_rao</h1>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
+                <nav className="p-3 navbar navbar-expand-lg navbar-light bg-light">
+                    <h1 href="/" id={styles.button}>Bhuvi_rao</h1>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
 
                     <div className=" collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul className="navbar-nav m-auto mt-2 mt-lg-0">
                             <li className="nav-item active">
-                                <h5  id={styles.buttons} href="#">Home</h5>
+                                <h5 id={styles.buttons} href="#">Home</h5>
                             </li>
                             <li className="nav-item active">
-                                <h5  id={styles.buttons} href="#">About</h5>
+                                <h5 id={styles.buttons} href="#">About</h5>
                             </li>
                             <li className="nav-item active">
-                                <h5  id={styles.buttons} href="#">Resume</h5>
+                                <h5 id={styles.buttons} href="#">Resume</h5>
                             </li>
                             <li className="nav-item active">
-                                <h5  id={styles.buttons} href="#">Skills</h5>
+                                <h5 id={styles.buttons} href="#">Skills</h5>
                             </li>
                             <li className="nav-item active">
-                                <h5  id={styles.buttons} href="#">Projects</h5>
+                                <h5 id={styles.buttons} href="#">Projects</h5>
                             </li>
                             <li className="nav-item active">
-                                <h5  id={styles.buttons} href="#">Contact</h5>
+                                <h5 id={styles.buttons} href="#">Contact</h5>
                             </li>
                         </ul>
                     </div>
-            </nav>
+                </nav>
         </>
     )
 }
