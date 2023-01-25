@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bhuveshra0_/static/css/main.73edeee3.css",
-    "main.js": "/bhuveshra0_/static/js/main.5ac881c6.js",
+    "main.css": "/bhuveshra0_/static/css/main.e61c14f2.css",
+    "main.js": "/bhuveshra0_/static/js/main.42504da7.js",
     "static/js/787.84166f93.chunk.js": "/bhuveshra0_/static/js/787.84166f93.chunk.js",
     "static/media/DpEdit.png": "/bhuveshra0_/static/media/DpEdit.ab26422e93dd4ca7a0f4.png",
     "static/media/jsimg.png": "/bhuveshra0_/static/media/jsimg.cae65a84867e9d6ad7bf.png",
@@ -17,12 +17,12 @@
     "static/media/skills.svg": "/bhuveshra0_/static/media/skills.baac8e3849e955de3830f1b24e09e606.svg",
     "static/media/home.svg": "/bhuveshra0_/static/media/home.51f37e04196ecb6924ddb3d249c1eb47.svg",
     "static/media/project.svg": "/bhuveshra0_/static/media/project.785d474b1191a2162eda89ab6c67e146.svg",
-    "main.73edeee3.css.map": "/bhuveshra0_/static/css/main.73edeee3.css.map",
-    "main.5ac881c6.js.map": "/bhuveshra0_/static/js/main.5ac881c6.js.map",
+    "main.e61c14f2.css.map": "/bhuveshra0_/static/css/main.e61c14f2.css.map",
+    "main.42504da7.js.map": "/bhuveshra0_/static/js/main.42504da7.js.map",
     "787.84166f93.chunk.js.map": "/bhuveshra0_/static/js/787.84166f93.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73edeee3.css",
-    "static/js/main.5ac881c6.js"
+    "static/css/main.e61c14f2.css",
+    "static/js/main.42504da7.js"
   ]
 }
