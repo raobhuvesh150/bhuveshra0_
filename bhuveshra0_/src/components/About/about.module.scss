@@ -1,48 +1,46 @@
 #container {
-    height: 850px;
-    background-color: rgb(95, 99, 99);
+  height: 850px;
+  // background-color: rgb(95, 99, 99);
 }
-
 
 #designContainer {
-    width: 85vw;
+  //   width: ;
 }
 
-@media screen and (max-width:500px) {
-    #designContainer {
-        width: 100vw;
-    }
-
+@media screen and (max-width: 500px) {
+  #designContainer {
+    width: 100vw;
+  }
 }
 
 #borderLeft {
-    position: absolute;
-    border-left: 50px solid rgb(224, 190, 54);
-    top: 50%;
-    right: 99.90%;
-    bottom: -49px;
+  position: absolute;
+  border-left: 50px solid rgb(224, 190, 54);
+  top: 50%;
+  right: 99.9%;
+  bottom: -49px;
 }
 
 #borderRight {
-    position: absolute;
-    border-right: 50px solid rgb(1, 99, 164);
-    top: -50px;
-    left: 100%;
-    bottom: 50%;
+  position: absolute;
+  border-right: 50px solid rgb(1, 99, 164);
+  top: -50px;
+  left: 100%;
+  bottom: 50%;
 }
 
 #borderTop {
-    position: absolute;
-    border-top: 50px solid rgb(1, 99, 164);
-    bottom: 100%;
-    left: 50%;
-    right: -50px;
+  position: absolute;
+  border-top: 50px solid rgb(1, 99, 164);
+  bottom: 100%;
+  left: 50%;
+  right: -50px;
 }
 
 #borderBottom {
-    position: absolute;
-    border-bottom: 50px solid rgb(224, 190, 54);
-    top: 99.8%;
-    left: -49px;
-    right: 50%;
+  position: absolute;
+  border-bottom: 50px solid rgb(224, 190, 54);
+  top: 99.8%;
+  left: -49px;
+  right: 50%;
 }
